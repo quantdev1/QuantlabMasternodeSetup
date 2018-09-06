@@ -178,9 +178,9 @@ fi
 #Installing Daemon
 cd ~
 mkdir ~/QuantlabMasternodeSetup/quantlab
-wget https://github.com/quantdev1/quant/releases/download/1.0.1/Ubuntu-16.04-compiled-quantlab.tar.gz
-tar -xzf Ubuntu-16.04-compiled-quantlab.tar.gz -C ~/QuantlabMasternodeSetup/quantlab
-rm -rf Ubuntu-16.04-compiled-quantlab.tar.gz
+wget https://github.com/quantdev1/Quantlab/releases/download/V1.1.0/quantlab-1.1.0-ubuntu-16.04-compiled.tar.gz
+tar -xzf quantlab-1.1.0-ubuntu-16.04-compiled.tar.gz -C ~/QuantlabMasternodeSetup/quantlab
+rm -rf quantlab-1.1.0-ubuntu-16.04-compiled.tar.gz
 
   stop_daemon
 
